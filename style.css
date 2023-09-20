@@ -1,0 +1,170 @@
+body {
+    font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#mainLogo {
+    grid-column: 1/span 12;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(234, 255, 184);
+}
+
+#mainLogo > img {
+    width: 100%;
+}
+
+.nav {
+    background-color: rgb(229,166,115);
+    grid-column: 1/span 12;
+    padding: 10px;
+}
+
+.nav > ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin:-8px;
+}
+
+.nav > ul > li {
+    color: rgb(84, 53, 38);
+    display: block;
+    float: right;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.nav > ul > li > a {
+    text-decoration: none;
+    color: rgb(84, 53, 38);
+}
+
+.nav > ul > li > a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+#introText {
+    grid-column: 1/span 12;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    color: rgb(84, 53, 38);
+}
+
+#introText > h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -5px;
+    font-size: 3em;
+}
+
+#dividerImage {
+    grid-column: 1/span 12;
+}
+
+#dividerImage > img {
+    width: 100%;
+}
+
+#whatColumn {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    grid-column: 3/span 2;
+    color:rgb(84, 53, 38);
+}
+
+#whereColumn {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    grid-column: 6/span 2;
+    color:rgb(84, 53, 38);
+}
+
+#howColumn {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    grid-column: 9/span 2;
+    color:rgb(84, 53, 38);
+}
+
+footer {
+    grid-column: 1/span 12;
+    background-color: rgb(229,166,115);
+    color:rgb(84, 53, 38);
+}
+
+#aboutList > li {
+    padding:10px;
+    list-style-type: none;
+    color:rgb(84, 53, 38);
+}
+
+#aboutList > li > a {
+    text-decoration: none;
+    color:rgb(84, 53, 38);
+}
+
+#aboutList > li > a:hover {
+    color:rgb(84, 53, 38)
+}
+
+
+/* Quiz Page */
+
+.quiz {
+    grid-column: 4/span 6;
+}
+
+.plasticWasteBox {
+    color:rgb(84, 53, 38);
+    background-color:rgb(234, 255, 184);
+    border-style: none;
+}
+
+.plasticWasteLeg {
+    color:rgb(84, 53, 38);
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.plasticDamageBox {
+    color:rgb(84, 53, 38);
+    background-color:rgb(234, 255, 184);
+    border-style: none;
+}
+
+.plasticDamageLeg {
+    color:rgb(84, 53, 38);
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+
+
+
+
+#submitButton {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
